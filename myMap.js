@@ -11,13 +11,13 @@ map_manager.map_items = [
       "latitude" : 40.7596651,
     }
 ]
-
+var map;
 function loadMapScenario() {
-    map_manager.map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
-        credentials: 'AikCEUj_rGAWu8x2XBM0lIgs25BcQN7AVFa7vTvQbpsVSMbcdTZB_7XgZJlR0t6g'
+    map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
+        credentials: 'Ak3Ti03DdEJJLxfmHLqYpir33prmxiwRVYqwOsERuP3EepvEddqjGrL4dTLnDVK3'
     });
-    add_pokemon_layer();
-}
+}                }
+
 
 // 1. Define pokemon data format, create mock pokemon data
 function get_counter_down_time_from_expire_epoch(epoch) {
