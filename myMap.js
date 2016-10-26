@@ -15,6 +15,7 @@ function loadMapScenario() {
     map_manager.map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
         credentials: 'Ak3Ti03DdEJJLxfmHLqYpir33prmxiwRVYqwOsERuP3EepvEddqjGrL4dTLnDVK3'
     });
+    add_pokemon_layer();
 }                
 
 
