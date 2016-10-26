@@ -11,9 +11,8 @@ map_manager.map_items = [
       "latitude" : 40.7596651,
     }
 ]
-var map;
 function loadMapScenario() {
-    map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
+    map_manager.map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
         credentials: 'Ak3Ti03DdEJJLxfmHLqYpir33prmxiwRVYqwOsERuP3EepvEddqjGrL4dTLnDVK3'
     });
 }                
